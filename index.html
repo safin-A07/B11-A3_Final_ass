@@ -12,6 +12,8 @@
      <!-- daisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         .adlam-font {
      font-family: "ADLaM Display", serif;
@@ -22,6 +24,60 @@
 </head>
 <body class="adlam-font">
    
-    
+    <!-- header section -->
+     <header>
+        <!-- Navber from daisyUI -->
+        <nav class="bg-[#FFF9F4]">
+            <div class="navbar ">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content  rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Find a pet</a></li>
+                      <li><a>breeds</a></li>                    
+                      <li><a>Contact us</a></li>
+                    </ul>
+                  </div>
+                  <div class="flex ml-10">
+                    <img src="c1-assets/logo-header.png" alt="">
+                    <h2 class="text-2xl py-2   ">Browse<span class="text-yellow-400">4</span>Pets</h2>
+                  </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                      <li><a>Find a pet</a></li>
+                      <li><a>breeds</a></li>                    
+                      <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end mr-10">
+                    
+                    <i class="fa-solid fa-magnifying-glass px-2"></i>
+                    <i class="fa-regular fa-bell px-2"></i>
+                    <a class="btn  px-2 mx-5 border-yellow-400">Login</a>
+                    <a class="btn  btn-warning px-2">Resiter</a>
+                </div>
+              </div>
+        </nav>
+     </header>
+     <!-- main section -->
+      <main></main>
+      <!-- footer section -->
+       <footer></footer>
 </body>
 </html>
